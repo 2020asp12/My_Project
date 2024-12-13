@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Security Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        input[type="text"], input[type="email"], input[type="phone"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Register Emergency Contact</h2>
+        <form action="send_alert.php" method="POST">
+            <label for="user_name">Your Name:</label>
+            <input type="text" id="user_name" name="user_name" required>
+
+            <label for="user_email">Your Email:</label>
+            <input type="email" id="user_email" name="user_email" required>
+
+            <label for="user_phone">Your Phone Number:</label>
+            <input type="text" id="user_phone" name="user_phone" required>
+
+            <label for="emergency_name">Emergency Contact Name:</label>
+            <input type="text" id="emergency_name" name="emergency_name" required>
+
+            <label for="emergency_phone">Emergency Contact Phone:</label>
+            <input type="text" id="emergency_phone" name="emergency_phone" required>
+
+            <button type="submit">Send Alert</button>
+        </form>
+    </div>
+</body>
+</html>
