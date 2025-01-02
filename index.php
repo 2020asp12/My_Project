@@ -22,8 +22,8 @@
         <section id="hero">
             <h2>Your Safety, Our Priority</h2>
             <p>Empowering women to feel secure and confident.</p>
-            <br><h3 style="color: #4A90E2;">join with us</h3>
-            <a href="#signin" class="cta-button">sign in</a>
+            <!-- <br><h3 style="color: #4A90E2;">join with us</h3>
+            <a href="login.html" class="cta-button">sign in</a> -->
         </section>
 
         <section id="features">
