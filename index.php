@@ -33,13 +33,14 @@
                 <p>Instant alerts to your emergency contacts.</p>
             </div>
             <div class="feature">
-                <h3>Location Tracking</h3>
+                <button>Location Tracking</button>
                 <p>Share your location with trusted contacts.</p>
             </div>
             <div class="feature">
-                <h3>Safety Tips</h3>
-                <p>Receive essential safety tips and updates.</p>
             </div>
+                <a href="Safety_Tips.html"><button class="feature">Safety Tips</button></a>
+                <p>Receive essential safety tips and updates.</p>
+           
         </section>
 
         <section id="about">
